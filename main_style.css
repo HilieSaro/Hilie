@@ -42,7 +42,7 @@ div#content_id h1 {
 aside {
 	background: #00ff00;
 	float: right;
-	padding: 30px;
+	padding: 15px;
 	border: solid 1px;
 	margin-top: none;
 	margin-bottom: 1em;
@@ -50,10 +50,10 @@ aside {
 }
 
 aside p:hover {
-	padding: 50px;
+	padding: 30px;
 	color: #0000ff;
 	font-size: 2.0em;
-	width: 10px;
+	width: 65px;
 }
 
 /*** Styles pour les liens du pied de page ***/
