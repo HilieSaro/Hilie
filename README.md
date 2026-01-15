@@ -6,7 +6,7 @@
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
 <meta name="keywords" content="saro.html, saro hilie, page personnel, bodybuilding, culturisme">
 <title>saro hilie</title>
-<link rel="stylesheet" href="../styles/main_style.css">
+<link rel="stylesheet" href="main_style.css">
 <!--[if lt IE 9]>
    <script src="../scripts/html5-ie.js"></script>
 <![endif]-->
