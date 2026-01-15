@@ -29,10 +29,10 @@
 		</p>
 	</aside>
     
-<footer>
-<div style="float: right">
-Droits réservés<a href="mentionslégales.html">Mentions légales</a>
-</div>
+      <footer>
+      <div style="float: right">
+      Droits réservés<a href="mentionslégales.html">Mentions légales</a>
+      </div>
 </footer>
 </body>
 </html>
