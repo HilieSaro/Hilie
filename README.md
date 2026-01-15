@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header style="background: #ffffff">
-		<img alt="tague" src="tague.jpg" width="1300" height="300">
+		<img alt="tague" src="tague.jpg" width="1400" height="320">
 	</header>
 	<nav>
 		<ul>
