@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*** Styles pour le contenu général du documment html ***/
+header, footer {
+	display: block;
+}
+
+html {
+	text-align: center;
+	color: #000000;
+	background: #FFFFFF;
+	font-size: 1em;
+	line-height: 1em;
+}
+/*** Styles pour le contenu ***/
+body {
+	font-size: 100%;
+}
+
+body h3:hover {
+	padding: 10px;
+	text-decoration: none;
+	color: red;
+	width: 1500px
+}
+
+/*** Styles pour le contenu de pied de page et ses liens ***/
+footer {
+	background: dimgray;
+	color: white;
+	padding: 30px;
+	text-align: left;
+	margin: none;
+	font-size: 1.0em;
+}
+
+div a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	padding: 3px
+}
