@@ -8,7 +8,7 @@
 <title>saro hilie</title>
 <link rel="stylesheet" href="main_style.css">
 <!--[if lt IE 9]>
-   <script src="../scripts/html5-ie.js"></script>
+   <script href="html5-ie.js"></script>
 <![endif]-->
 </head>
 <body>
