@@ -1,1 +1,69 @@
+@charset "UTF-8";
+/*** Styles pour les liens de la zone de navigation ***/
+header, footer {
+	display: block;
+}
 
+nav {
+	margin-left: 0.5em;
+	background: #ffff00;
+	float: left;
+	padding: 25px;
+	border: solid 1px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: red;
+}
+
+ul {
+	list-style: none;
+	padding: 30px;
+}
+
+/*** Styles pour la zone de contenu ***/
+div#content_id header {
+	text-align: center;
+	color: black;
+}
+
+div#content_id article {
+	text-align: left;
+	margin-left: 12em;
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+/*** Styles pour la zone d'informations ***/
+aside {
+	background: #00ff00;
+	float: right;
+	padding: 30px;
+	border: solid 1px;
+}
+
+aside p:hover {
+	padding: 50px;
+	color: #0000ff;
+	font-size: 1.5em;
+	width: 130px;
+}
+
+/*** Styles pour les liens du pied de page ***/
+footer {
+	clear: both;
+	padding-top: 0.1em;
+	background: #ff80ff;
+	font-size: 2.0em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
