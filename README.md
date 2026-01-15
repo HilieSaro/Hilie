@@ -35,6 +35,6 @@
 		<div style="float: right">
             Droits réservés<a href="mentionslégales.html">Mentions légales</a>
 		</div>
-</footer>
+    </footer>
 </body>
 </html>
