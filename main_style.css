@@ -7,7 +7,7 @@ header, footer {
 nav {
 	background: #ffff00;
 	float: left;
-	padding: 15px;
+	padding: 5px;
 	border: solid 1px;
 	margin-left: 1em;
 }
@@ -24,7 +24,7 @@ nav a:hover {
 
 ul {
 	list-style: none;
-	padding: 15px;
+	padding: 5px;
 }
 
 /*** Styles pour la zone de contenu ***/
