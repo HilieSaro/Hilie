@@ -58,11 +58,12 @@ aside p:hover {
 
 /*** Styles pour les liens du pied de page ***/
 footer {
-	clear: both;
-	padding-top: 1em;
+	padding: 30px;
 	background: dimgray;
 	color: white;
 	margin: none;
+	text-align: left;
+	font-size: 1.0em;
 }
 
 img {
@@ -70,7 +71,8 @@ img {
 	}
 
 div a {
+	float: right;
 	text-decoration: none;
 	color: white;
-	margin: 1em;
+	padding: 3px
 }
