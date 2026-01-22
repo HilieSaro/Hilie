@@ -1,10 +1,8 @@
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
 <meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
-<title>Hilie</title>
-<link rel="stylesheet" href="main_style.css">
+<link rel="stylesheet" href="mainbis.css">
 <style type="text/css">
 
 H2 {
