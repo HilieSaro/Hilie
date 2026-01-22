@@ -52,7 +52,7 @@ body {
 </head>
 <body>
 	<header style="background: #ffffff">
-		<img alt="tague" src="tague.jpg" width="1000" height="300">
+		<img alt="tague" src="tague.jpg" width="800" height="300">
 	</header>
 	<br><br>
 	<nav>
