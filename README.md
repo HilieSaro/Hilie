@@ -71,12 +71,11 @@ onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 		</p>
 	</aside>
 
-	    <footer>
-		<img style="width: 25px; height: 25px" src="w3cx.jpg"
-			alt="CSS Valide !"> 
-		<div style="float: right">
+<footer> 
+<img style="width: 25px; height: 25px" src="../images/w3cx.jpg" alt="CSS Valide !">
+<div style="float: right">
 Droits réservés<a href="mentionslégales.html">Mentions légales</a>
-		</div>
-	</footer>
+</div>
+</footer>
 </body>
 </html>
