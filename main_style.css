@@ -61,7 +61,7 @@ footer {
 	clear: both;
 	padding-top: 1em;
 	background: white;
-	color: ;
+	color: black;
 	margin: none;
 }
 
@@ -71,6 +71,6 @@ img {
 
 div a {
 	text-decoration: none;
-	color: black;
+	color: ;
 	margin: 1em;
 }
