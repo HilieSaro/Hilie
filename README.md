@@ -36,7 +36,7 @@
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div>
-	<img style="width: 300px; height: 300px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
+	<img style="width: 250px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !">
 	<aside>
 		<p>
