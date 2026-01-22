@@ -6,6 +6,19 @@
 <meta name="keywords" content="saro.html, saro hilie, page personnel, bodybuilding, culturisme">
 <title>saro hilie</title>
 <link rel="stylesheet" href="main_style.css">
+	<script>
+
+	function swapImage(imgToSwap){
+		imgToSwap.src = "triceps2.jpg";
+		imgToSwap.alt = "Vous survolez mon bouton avec votre souris !";
+	}
+
+	function swapBack(imgToSwap){
+		imgToSwap.src = "triceps1.jpg";
+		imgToSwap.alt = "Survolez moi !";
+	}
+
+</script>
 <!--[if lt IE 9]>
    <script href="html5-ie.js"></script>
 <![endif]-->
@@ -23,6 +36,8 @@
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div>
+	<img style="width: 300px; height: 300px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
+onmouseout="swapBack(this);" alt="Survolez moi !">
 	<aside>
 		<p>
 			Bienvenue!
