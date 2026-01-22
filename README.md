@@ -3,7 +3,6 @@
 <meta charset="UTF-8">
 <meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
-<meta name="keywords" content="Hilie Saro", hilie saro, page personnel, bodybuilding, culturisme">
 <title>Hilie</title>
 <link rel="stylesheet" href="main_style.css">
 <style type="text/css">
