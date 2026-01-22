@@ -52,7 +52,7 @@ body {
 </head>
 <body>
 	<header style="background: #ffffff">
-		<img alt="tague" src="tague.jpg" width="900" height="300">
+		<img alt="tague" src="tague.jpg" width="945" height="300">
 	</header>
 	<br><br>
 	<nav>
@@ -72,7 +72,7 @@ onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 		</p>
 	</aside>
 
-	<footer>
+	    <footer>
 		<img style="width: 25px; height: 25px" src="w3cx.jpg"
 			alt="CSS Valide !"> 
 		<div style="float: right">
