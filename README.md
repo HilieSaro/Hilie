@@ -1,9 +1,9 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="autor" content="saro hilie">
+<meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
-<meta name="keywords" content="saro.html, saro hilie, page personnel, bodybuilding, culturisme">
+<meta name="keywords" content="Hilie", hilie saro, page personnel, bodybuilding, culturisme">
 <title>saro hilie</title>
 <link rel="stylesheet" href="main_style.css">
 <style type="text/css">
@@ -16,7 +16,7 @@ H2 {
    padding: 12px;
    width: 333px;
    border: 12px solid white;
-   border-radius: 80px;
+   border-radius: 90px;
    }
 
 H2 {
