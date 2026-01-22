@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -28,7 +27,7 @@ H2 {
    }
 
 body {   
-   color: royalblue;
+   color: white;
    background-color: navy;
    }
 
@@ -65,8 +64,8 @@ body {
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
-	<h2> HILIE <img style="width: 1000px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
-onmouseout="swapBack(this);" alt="Survolez moi !"></h2></div></div>
+	<h2> HILIE <img style="width: 750px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
+onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>
 			Bienvenue!
