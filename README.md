@@ -4,7 +4,7 @@
 <meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
 <meta name="keywords" content="Hilie", hilie saro, page personnel, bodybuilding, culturisme">
-<title>saro hilie</title>
+<title>Hilie</title>
 <link rel="stylesheet" href="main_style.css">
 <style type="text/css">
 
@@ -15,7 +15,7 @@ H2 {
    margin: 30px auto 12px auto;
    padding: 12px;
    width: 333px;
-   border: 12px solid white;
+   border: 15px solid white;
    border-radius: 90px;
    }
 
