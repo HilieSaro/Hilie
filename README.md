@@ -52,7 +52,7 @@ body {
 </head>
 <body>
 	<header style="background: #ffffff">
-		<img alt="tague" src="tague.jpg" width="1400" height="300">
+		<img alt="tague" src="tague.jpg" width="1000" height="300">
 	</header>
 	<br><br>
 	<nav>
@@ -64,7 +64,7 @@ body {
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
-	<h2> HILIE <img style="width: 650px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
+	<h2> HILIE <img style="width: 250px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>
