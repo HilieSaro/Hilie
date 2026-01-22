@@ -62,7 +62,7 @@ body {
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
 	<h2> HILIE <img style="width: 250px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
-onmouseout="swapBack(this);" alt="Survolez moi !"></h2><br><br>
+onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>
 			Bienvenue!
@@ -70,7 +70,7 @@ onmouseout="swapBack(this);" alt="Survolez moi !"></h2><br><br>
 	</aside>
 
 <footer>
-<img style="width: 25px; height: 25px" src="w3cx.jpg" alt="CSS Valide !"><br><br>
+<img style="width: 25px; height: 25px" src="w3cx.jpg" alt="CSS Valide !">
 <div style="float: right">
 Droits réservés<a href="mentionslégales.html">Mentions légales</a>
 </div>
