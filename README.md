@@ -15,7 +15,7 @@ H2 {
    margin: 30px auto 12px auto;
    padding: 12px;
    width: 333px;
-   border: 15px solid white;
+   border: 12px solid white;
    border-radius: 90px;
    }
 
