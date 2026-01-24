@@ -55,7 +55,7 @@ body {
 	<nav>
 		<ul>
 		    <li><a href="news.html">🌞 Actualités 🌞</a></li>
-			<li>🔗<A HREF="[https://opensea.io/collection/hilie](https://opensea.io/gallery/0x72c2ae7b736e9cbc304e8c31a45fbfd82f04ab80/4f2d5064488c4d8182672a99cf7d2b6c)">HILIE NFT💎</A></li>
+			<li>🔗<A HREF="https://opensea.io/gallery/0x72c2ae7b736e9cbc304e8c31a45fbfd82f04ab80/4f2d5064488c4d8182672a99cf7d2b6c">HILIE NFT💎</A></li>
             <li>🔗<A HREF="https://opensea.io/collection/hilie-pfp">HILIE pfp💪</A></li>
 		    <li><a href="contact.html">🌍 Contact 🌍</a></li>
 			<li><a href="photos.html">📷 Photos 📸</a></li>
