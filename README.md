@@ -61,7 +61,7 @@ body {
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
-	<h2> HILIE <img style="width: 250px; height: 250px" src="triceps1.jpg" id="myButton" onmouseover="swapImage(this);"
+	<h2> HILIE <img style="width: 250px; height: 250px" src="triceps1.jpg" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>
