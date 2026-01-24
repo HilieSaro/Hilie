@@ -56,7 +56,7 @@ body {
 		<ul>
 		    <li><a href="news.html">🌞 Actualités 🌞</a></li>
 			<li>🔗<A HREF="https://opensea.io/collection/hilie">HILIE NFT💎</A></li>
-            <li>🔗<A HREF="https://opensea.io/collection/hilie-pfp">HILIE NFT💪</A></li>
+            <li>🔗<A HREF="https://opensea.io/collection/hilie-pfp">HILIE pfp💪</A></li>
 		    <li><a href="contact.html">🌍 Contact 🌍</a></li>
 			<li><a href="photos.html">📷 Photos 📸</a></li>
 			<li><a href="videos.html">🎥 Vidéos 🎥</a></li>
