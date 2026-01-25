@@ -33,12 +33,12 @@ body {
 <script>
 
 	function swapImage(imgToSwap){
-		imgToSwap.src = "triceps2.jpg";
+		imgToSwap.src = "images/triceps2.jpg";
 		imgToSwap.alt = "Vous survolez mon bouton avec votre souris !";
 	}
 
 	function swapBack(imgToSwap){
-		imgToSwap.src = "triceps1.jpg";
+		imgToSwap.src = "images/triceps1.jpg";
 		imgToSwap.alt = "Survolez moi !";
 	}
 
@@ -49,7 +49,7 @@ body {
 </head>
 <body>
 	<header style="background: #ffffff">
-		<img alt="tague" src="tague.jpg" width="945" height="300">
+		<img alt="tague" src="images/tague.jpg" width="945" height="300">
 	</header>
 	<br><br>
 	<nav>
@@ -63,7 +63,7 @@ body {
 			</ul>
 	</nav>
 	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
-	<h2> HILIE <img style="width: 250px; height: 250px" src="triceps1.jpg" onmouseover="swapImage(this);"
+	<h2> HILIE <img style="width: 250px; height: 250px" src="images/triceps1.jpg" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>
@@ -72,7 +72,7 @@ onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	</aside>
 
 <footer>
-<img style="width: 25px; height: 25px" src="w3cx.jpg" alt="CSS Valide !">
+<img style="width: 25px; height: 25px" src="images/w3cx.jpg" alt="CSS Valide !">
 <div style="float: right">
 <a href="mentionslégales.html">Droits réservés & Mentions légales</a>
 </div>
