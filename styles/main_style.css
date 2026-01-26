@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*** Styles pour les liens de la zone de navigation ***/
+header, footer {
+	display: block;
+}
+
+nav {
+	background: #ffff00;
+	float: left;
+	padding: 5px;
+	border: solid 1px;
+	margin-left: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+}
+
+nav a:hover {
+	color: red;
+}
+
+ul {
+	list-style: none;
+	padding: 5px;
+}
+
+/*** Styles pour la zone de contenu ***/
+div#content_id {
+	font-family: "Trebuchet MS, Helvetica, fantasy";
+	font-size: 2.3em;
+	color: purple;
+	margin-left: 10em;
+}
+div#content_id h1 {
+	text-shadow: 0.5em 0.5em 0.05em #aaaaaa;
+	padding: none;
+	}
+/*** Styles pour la zone d'informations ***/ 
+aside {
+	background: #00ff00;
+	float: right;
+	padding: 1px;
+	border: solid 1px;
+	margin-top: none;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+
+aside p:hover {
+	padding: 2px;
+	color: #0000ff;
+	font-size: 2.0em;
+	width: 250px;
+}
+
+/*** Styles pour les liens du pied de page ***/
+footer {
+	clear: both;
+	padding-top: 1em;
+	background: white;
+	color: ;
+	margin: none;
+}
+
+img {
+	margin: 1em;
+	}
+
+div a {
+	text-decoration: none;
+	color: ;
+	margin: 1em;
+}
