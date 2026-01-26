@@ -44,7 +44,7 @@ body {
 
 </script>
 <!--[if lt IE 9]>
-   <script src="html5-ie.js"></script>
+   <script src="scripts/html5-ie.js"></script>
 <![endif]-->
 </head>
 <body>
