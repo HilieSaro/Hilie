@@ -2,7 +2,7 @@
 <head>
 <meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
-<link rel="stylesheet" href="main_style.css">
+<link rel="stylesheet" href="styles/main_style.css">
 <style type="text/css">
 
 H2 {
