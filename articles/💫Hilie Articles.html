@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type"; content="text/html"; charset="UTF-8"; />
+<head>
+<title>💫Hilie Articles </title>
+<style>
+<style type="text/css">
+
+div#content_id article {
+   float: right;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 1em;
+   text-align: left;
+   margin-right: 10em;
+}
+
+#main-box {
+   width: 20em;
+   height: 5em;
+   border: 0.5em double red;
+   margin-right: none;
+   margin-left: 30em;
+   margin-bottom: 5em;
+   padding: 5em;
+}
+
+a {
+color: white;
+}
+
+#footer {
+   float: right;
+}
+
+mark {
+   font-size: 1em;
+   font-family: Arial;
+   margin: 700px;
+   color: none;
+}
+
+h3 {
+   transform: rotate(-360deg);
+   padding: 12px;
+   width: 333px;
+   border: 12px solid navy;
+   border-radius: 80px;
+  }
+
+h3 {
+   font-size: 1em;
+   font-family: Arial;
+   margin: 30px auto 12px auto;
+   text-decoration: ;
+   text-align:center;
+   opacity: ;
+   color: white;
+   }
+   
+
+body {   
+   color: white;
+   background-color: royalblue;
+   }
+   
+#carousel {
+      position: absolute;
+      top: 100px;
+      left: 60px;
+      display: hidden;
+   }
+</style>
+<script>
+
+
+var slides = [
+"<div id='slide1'>💫 Hilie <br><br><img src='💫Hilie/01.jpg'></div>",
+"<div id='slide2'>💫 Hilie <br><br><img src='💫Hilie/11.jpg'></div>",
+"<div id='slide3'>💫 Hilie <br><br><img src='💫Hilie/02.jpg'></div>",
+"<div id='slide4'>💫 Hilie <br><br><img src='💫Hilie/05.jpg'></div>",
+"<div id='slide5'>💫 Hilie <br><br><img src='💫Hilie/09.jpg'></div>",
+"<div id='slide6'>💫 Hilie <br><br><img src='💫Hilie/06.jpg'></div>"];
+
+var currentSlide = 0;
+var numberOfSlides = slides.length-1;
+
+window.addEventListener("load",loader,false);
+
+function loader(){
+changeImage();
+}
+
+function changeImage(){
+console.log("Fonction changeImage");
+if (currentSlide > numberOfSlides){
+currentSlide = 0;
+}
+ document.getElementById("carousel").innerHTML=slides[currentSlide];
+
+ console.log('affichage de la photo' + currentSlide + " sur " + numberOfSlides);
+ currentSlide++;
+
+ setTimeout(changeImage,3000);
+}
+
+</script>
+</head>
+<body>
+   <mark>Articles sur le culturisme</mark><br><br>
+   <hr>
+   <h1>ARTICLES</h1>
+
+<h3 style="width: 350px; height: 620px; color: white;" id="carousel"></h3> 
+         
+<br><br>
+        <h3 style="width: 650px; height: 100px">
+         <article>
+         <br>
+             Vous trouverez ici une suite d'articles basée sur le Bodybuilding.<br>
+             Si vous tenez à réagir à un article et me faire part de vos remarques,<br>
+             vous trouverez un lien vers @HilieSaro (X.com) sur la page Actualités.<br>
+             Il y a également un émail pour me joindre sur la page contact de ce site !
+          </article>
+         </h3>
+         
+         <div id="main-box">
+         <nav>
+            <ul>
+               <li><a href="philosophie.html">L'esthétique
+                     ou l'art en Bodybuilding.</a></li>
+               <li><a href="sport.html">Le
+                     Culturisme est-il un sport?</a></li>
+               <li><a href="alimentaire.html">Qu'est-ce
+                     qu'un complément alimentaire?</a></li>
+            </ul>
+         </nav>
+      </div>
+   
+      </article>
+<br><br><br><br><br><br>
+<hr><br>
+
+         <div id=footer>Retour aux: <a href="https://hiliesaro.github.io/Hilie/news.html">News</a>
+          
+         </div><br><br><br>
+
+</body>
+</html>
