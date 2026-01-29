@@ -24,8 +24,8 @@ div#content_id a {
 }
 
 #main-box {
-	width: 75em;
-	height: 57em;
+	width: 125em;
+	height: 65em;
 	border: 0.5em double red;
     position: relative;
     top: 2em;
@@ -33,5 +33,6 @@ div#content_id a {
     margin-bottom: 5em;
 	padding:2em;
 }
+
 
 -->
