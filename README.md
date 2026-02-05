@@ -49,7 +49,7 @@ body {
 </head>
 <body>
 	<header style="background: #ffffff">
-		 <img alt="tague" src="images/tague.jpg" style="margin-left: 6em"; width="930" height="300">
+		<img alt="tague" src="images/tague.jpg" style="margin-left: 6em"; width="930" height="300">
 	</header>
 	<br><br>
 	<nav>
