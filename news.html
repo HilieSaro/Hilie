@@ -9,9 +9,122 @@
 	content="saro.html, saro hilie, actualités, news">
 <title>SARO : news</title>
 <link rel="stylesheet" href="styles/main_style_news.css">
-<!--[if lt IE 9]>
-   <script src="scripts/html5-ie.js"></script>
-<![endif]-->
+<style>
+      #content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+        padding: 10px;
+      }
+      #content img { display: block; max-width: 100%; height: auto; border-radius: 6px; }
+      .loader {
+        display: none;
+        width: 48px;
+        height: 48px;
+        border: 6px solid #eee;
+        border-top-color: #3498db;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 12px auto;
+      }
+      .loader.show { display: block; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .loader-text { text-align: center; font-size: 0.9rem; color: #333; }
+      .photo-card {
+        width: 100%;
+        max-width: 220px;
+        background: #fff;
+        border: 3px solid #000080; /* bleu marine */
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        border-radius: 8px;
+        padding: 8px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .photo-card img { border-radius: 6px; display:block; margin: 0 auto; }
+      .photo-title { margin-top: 6px; font-weight: 600; color: #222; font-size: 0.95rem; }
+    </style>
+
+	<script>
+
+window.addEventListener("load", init, false);
+
+function init() {
+  document.getElementById("myButton").addEventListener("click", loadPhotos, false);
+}
+
+function loadPhotos() {
+  const gallery = document.getElementById("content");
+  const loader = document.getElementById("loader");
+  const loaderText = document.getElementById("loaderText");
+  gallery.innerHTML = "";
+  const total = 5;
+  let pending = total;
+  loader.classList.add("show");
+  loaderText.textContent = `Chargement de ${total} image(s)...`;
+  for (let i = 1; i <= total; i++) {
+  const num = String(i).padStart(2, "0");
+  const filename = `TOF/${num}Philippe.jpg`;
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", filename, true);
+    xhr.responseType = "blob";
+
+    xhr.onload = function () {
+      if (xhr.status === 200) {
+        const blob = xhr.response;
+        const card = document.createElement("div");
+        card.className = "photo-card";
+
+        const img = document.createElement("img");
+        img.src = URL.createObjectURL(blob);
+        img.alt = filename;
+        img.style.maxWidth = "100%";
+
+        const title = document.createElement("div");
+        title.className = "photo-title";
+        title.textContent = "Hilie";
+
+        card.appendChild(img);
+        card.appendChild(title);
+        gallery.appendChild(card);
+      } else {
+        const err = document.createElement("div");
+        err.textContent = `Erreur chargement ${filename}: ${xhr.status}`;
+        gallery.appendChild(err);
+      }
+      pending--;
+      if (pending <= 0) {
+        loader.classList.remove("show");
+        loaderText.textContent = "Chargement terminé";
+      } else {
+        loaderText.textContent = `Chargement... (${total - pending}/${total})`;
+      }
+    };
+
+    xhr.onerror = function () {
+      const err = document.createElement("div");
+      err.textContent = `Erreur réseau pour ${filename}`;
+      gallery.appendChild(err);
+      pending--;
+      if (pending <= 0) {
+        loader.classList.remove("show");
+        loaderText.textContent = "Chargement terminé";
+      } else {
+        loaderText.textContent = `Chargement... (${total - pending}/${total})`;
+      }
+    };
+
+    xhr.send();
+  }
+}
+    
+
+   </script>
+
+
 </head>
 <body>
 	<header style="background: #ffffff">
@@ -32,7 +145,13 @@
 			<h4>Quelques articles</h4>
 			<p>Vous trouverez quelques réflexions sur le bodybuilding ici !</p>
 			<p></p>
-		</article>
+		</article><br><br>
+<form id="myForm">
+			<button id="myButton" type="button"><h2>SURPRISE</h2></button>
+		</form>
+    <div id="loader" class="loader" role="status" aria-hidden="true"></div>
+    <div id="loaderText" class="loader-text" aria-live="polite"></div>
+    <div id="content"></div>
 
 	</div><br><br><br>
 <hr>
@@ -47,6 +166,7 @@
 </body>
 
 </html>
+
 
 
 
