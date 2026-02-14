@@ -51,9 +51,9 @@ aside {
 
 aside p:hover {
 	padding: 2px;
-	color: #0000ff;
+	color: #000000;
 	font-size: 2.0em;
-	width: 250px;
+	width: 720px;
 }
 
 /*** Styles pour les liens du pied de page ***/
