@@ -24,7 +24,7 @@ H2 {
    }
 
 body {   
-   color: white;
+   color: #000000;
    background-color: navy;
    }
 
@@ -42,6 +42,23 @@ body {
 		imgToSwap.alt = "Survolez moi !";
 	}
 
+</script>
+<script>
+    function afficherPosition() {
+        var gps = navigator.geolocation.getCurrentPosition(
+           function(position){
+                var resultat = '';
+                var proprietesUtiles = ['latitude', 'longitude', 'accuracy', 'altitude', 'altitudeAccuracy', 'heading', 'speed'];
+                for (let i = 0; i < proprietesUtiles.length; i++){
+                    let key = proprietesUtiles[i];
+                    if (position.coords[key] !== undefined){
+                        resultat += key + ': ' + position.coords[key] + '<br>';
+                    }
+                }
+                document.getElementById('resultat').innerHTML = resultat;
+            }
+        );
+    }
 </script>
 <!--[if lt IE 9]>
    <script src="scripts/html5-ie.js"></script>
@@ -66,9 +83,10 @@ body {
 	<h2> HILIE <img style="width: 250px; height: 250px" src="images/triceps1.jpg" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
-		<p>
-			Bienvenue!
-		</p>
+		<h3><p>Bienvenue! Attrappe moi...<br></h3>
+			<button onclick="afficherPosition()">Clique pour connaître tes coordonnées</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie sur la carte de France si tu es bien chez toi!</A>
+    <div id="resultat"></div>
+    </p>
 	</aside>
 
 <footer>
