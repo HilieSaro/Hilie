@@ -43,6 +43,23 @@ body {
 	}
 
 </script>
+<script>
+    function afficherPosition() {
+        var gps = navigator.geolocation.getCurrentPosition(
+           function(position){
+                var resultat = '';
+                var proprietesUtiles = ['latitude', 'longitude', 'accuracy', 'altitude', 'altitudeAccuracy', 'heading', 'speed'];
+                for (let i = 0; i < proprietesUtiles.length; i++){
+                    let key = proprietesUtiles[i];
+                    if (position.coords[key] !== undefined){
+                        resultat += key + ': ' + position.coords[key] + '<br>';
+                    }
+                }
+                document.getElementById('resultat').innerHTML = resultat;
+            }
+        );
+    }
+</script>
 <!--[if lt IE 9]>
    <script src="scripts/html5-ie.js"></script>
 <![endif]-->
