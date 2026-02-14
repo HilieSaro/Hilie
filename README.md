@@ -24,7 +24,7 @@ H2 {
    }
 
 body {   
-   color: white;
+   color: #000000;
    background-color: navy;
    }
 
@@ -83,9 +83,11 @@ body {
 	<h2> HILIE <img style="width: 250px; height: 250px" src="images/triceps1.jpg" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
-		<p>
-			Bienvenue!
-		</p>
+		<h3><p>Bienvenue! Attrappe moi...<br></h3>
+			<button onclick="afficherPosition()">Clique pour connaître tes coordonnées</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie sur la carte de France si tu es
+				bien chez toi!</A>
+    <div id="resultat"></div>
+    </p>
 	</aside>
 
 <footer>
