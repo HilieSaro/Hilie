@@ -30,12 +30,12 @@ ul {
 /*** Styles pour la zone de contenu ***/
 div#content_id {
 	font-family: "Trebuchet MS, Helvetica, fantasy";
-	font-size: 1.6em;
+	font-size: 1.8em;
 	color: purple;
 	margin-left: 10em;
 }
 div#content_id h1 {
-	text-shadow: 0.5em 0.5em 0.05em #aaaaaa;
+	text-shadow: 0.3em 0.3em 0.03em #aaaaaa;
 	padding: none;
 	}
 /*** Styles pour la zone d'informations ***/ 
