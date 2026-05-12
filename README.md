@@ -1,7 +1,5 @@
 <html lang="fr">
 <head>
-<link rel="shortcut icon" href="favicon.ico"> 
-<link rel="icon" type="image/gif" href="animated_favicon1.gif">
 <meta name="autor" content="Hilie Saro">
 <meta name="description" content="page personnel de hilie saro sur le bodybuilding et le culturisme">
 <link rel="stylesheet" href="styles/main_style.css">
