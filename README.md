@@ -85,7 +85,7 @@ body {
 onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
 	<aside>
 		<p>Tes coordonnees<br>
-			<button onclick="afficherPosition()">Clique pour connaître tes coordonnées</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie sur la carte de France si tu es
+			<button onclick="afficherPosition()">Clique pour connaître tes coordonnées</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie si tu es
 				bien chez toi!</A>
     <div id="resultat"></div>
     </p>
