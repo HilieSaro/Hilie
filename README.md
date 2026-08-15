@@ -80,9 +80,9 @@ body {
 			<li><a href="videos.html">🎥 Vidéos 🎥</a></li>
 			</ul>
 	</nav>
-	<div id="content_id"><h1>BODYBUILDING<br>Bienvenue!</h1></div><br><br>
+	<div id="content_id"><h1>BODYBUILDING</h1></div><br><br>
 	<h2> HILIE <img style="width: 250px; height: 250px" src="images/triceps1.jpg" onmouseover="swapImage(this);"
-onmouseout="swapBack(this);" alt="Survolez moi !"></h2>
+onmouseout="swapBack(this);" alt="Survolez moi !">Survole moi</h2>
 	<aside>
 			<p><button onclick="afficherPosition()">Clique pour connaître tes coordonnées</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie si tu es
 				bien chez toi!</A>
