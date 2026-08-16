@@ -71,13 +71,13 @@ body {
 	<br><br>
 	<nav>
 		<ul>
-		    <li><a href="news.html">🌞 Actualités 🌞</a></li>
+		    <li><a href="news.html">🌞 Actualités </a></li>
 			<li><a HREF="https://opensea.io/collection/hilie">🔗HILIE NFT💎</A></li>
             <li><a HREF="https://opensea.io/collection/hilie-pfp">🔗HILIE pfp💪</A></li>
 			<li><a HREF="https://opensea.io/collection/hilie-nft-prestige">🔗PRESTIGE👑</a></li>
-		    <li><a href="contact.html">🌍 Contact 🌍</a></li>
-			<li><a href="photos.html">📷 Photos 📸</a></li>
-			<li><a href="videos.html">🎥 Vidéos 🎥</a></li>
+		    <li><a href="contact.html">🌍 Contact </a></li>
+			<li><a href="photos.html">📷 Photos </a></li>
+			<li><a href="videos.html">🎥 Vidéos </a></li>
 			</ul>
 	</nav>
 	<div id="content_id"><h1> ✅ BODYBUILDING</h1></div><br><br>
