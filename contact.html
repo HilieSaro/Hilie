@@ -8,6 +8,21 @@
 <meta name="keywords"
 	content="saro.html, saro hilie, contact, email">
 <title>saro hilie: contact</title>
+
+<script>
+
+	function growImage(imgToGrow){
+		imgToGrow.width += imgToGrow.width * .4;
+		imgToGrow.height += imgToGrow.height * .4;
+	}
+
+	function restoreImage(imgToShrink){
+		imgToShrink.width = imgToShrink.naturalWidth / 13;
+		imgToShrink.height = imgToShrink.naturalHeight / 13;
+	}
+
+</script>
+	
 <link rel="stylesheet" href="styles/mainbis.css">
 <!--[if lt IE 9]>
    <script src="scripts/html5-ie.js"></script>
@@ -19,9 +34,9 @@
 	</header>
 
 
-<p></p><img height="450" width="320" title="Pause" alt="Pause" src="images/Ape.png"
- id="myButton" onmouseover="growImage(this);" onmouseout="restoreImage(this);" />
-</p><br>
+<img height="450" width="450" title="Pause" alt="Pause" src="images/Ape.png"
+  onmouseover="growImage(this);" onmouseout="restoreImage(this);" />
+<br>
 
 	<div id="h1">
 		<h1>Me contacter</h1>
