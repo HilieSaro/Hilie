@@ -78,6 +78,7 @@ body {
 		    <li><a href="contact.html">🌍 Contact</a></li>
 			<li><a href="photos.html">📷 Photos</a></li>
 			<li><a href="videos.html">🎥 Vidéos</a></li>
+			<li><a href="https://giphy.com/channel/HILIE">🎬 GIFs</a></li>
 			</ul>
 	</nav>
 	<div id="content_id"><h1> ✅ BODYBUILDING</h1></div><br><br>
