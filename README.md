@@ -85,7 +85,7 @@ body {
 	<h2> Bienvenue <img style="width: 250px; height: 250px" src="images/triceps1.jpg" onmouseover="swapImage(this);"
 onmouseout="swapBack(this);" alt="Survolez moi !"> </h2>
 	<aside>
-			<p><button onclick="afficherPosition()">Clique pour connaître les informations de ta connexion.</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie si tu es
+			<p><button onclick="afficherPosition()">Clique pour voir les informations de localisation de ta connexion.</button><br><A HREF="https://www.coordonnees-gps.fr/">💎 vérifie si tu es
 				à la maison?</A>
     <div id="resultat"></div>
     </p>
